@@ -1,27 +1,27 @@
-﻿# Hraza
+# Hraza
 
-**Hraza** est une application Android de suivi de la fr├®quence cardiaque et d'annonce des zones cardiaques.
+**Hraza** est une application Android de suivi de la fréquence cardiaque et d'annonce des zones cardiaques.
 
 ## Version
 
 Version actuelle : **3.6.0**.
 
-Ce d├®p├┤t contient les sources, les ressources et les fichiers de configuration n├®cessaires ├á la compilation de l'application Hraza.
+Ce dépôt contient les sources, les ressources et les fichiers de configuration nécessaires à la compilation de l'application Hraza.
 
-## Pr├®requis techniques
+## Prérequis techniques
 
 - Android Studio compatible avec Android Gradle Plugin 9.1.1 et Gradle 9.3.1.
-- JDK 17 ou version ult├®rieure pour ex├®cuter Gradle.
+- JDK 17 ou version ultérieure pour exécuter Gradle.
 - Android SDK 36.
-- Appareil Android 12 (API 31) ou ult├®rieur pour installer l'application.
+- Appareil Android 12 (API 31) ou ultérieur pour installer l'application.
 
-L'application utilise les fonctionnalit├®s Bluetooth et les permissions Android associ├®es.
+L'application utilise les fonctionnalités Bluetooth et les permissions Android associées.
 
 ## Compilation
 
-1. Clonez ce d├®p├┤t.
+1. Clonez ce dépôt.
 2. Ouvrez le projet dans Android Studio et laissez-le synchroniser le projet Gradle.
-3. Pour construire l'APK de d├®bogage depuis la racine du d├®p├┤t :
+3. Pour construire l'APK de débogage depuis la racine du dépôt :
 
    Sous Windows :
 
@@ -35,14 +35,14 @@ L'application utilise les fonctionnalit├®s Bluetooth et les permissions Andro
    ./gradlew assembleDebug
    ```
 
-L'APK de d├®bogage est g├®n├®r├® dans `app/build/outputs/apk/debug/`.
+L'APK de débogage est généré dans `app/build/outputs/apk/debug/`.
 
 ## Langue
 
-L'application est en fran├ºais.
+L'application est en français.
 
 ## Licences
 
-Le code propre ├á Hraza est distribu├® selon la [licence PolyForm Noncommercial 1.0.0](LICENSE). Cette licence autorise les usages non commerciaux dans les conditions qu'elle d├®finit ; elle n'accorde pas de droit g├®n├®ral d'utilisation commerciale. Toute utilisation commerciale n├®cessite une autorisation distincte du titulaire des droits.
+Le code propre à Hraza est distribué selon la [licence PolyForm Noncommercial 1.0.0](LICENSE). Cette licence autorise les usages non commerciaux dans les conditions qu'elle définit ; elle n'accorde pas de droit général d'utilisation commerciale. Toute utilisation commerciale nécessite une autorisation distincte du titulaire des droits.
 
-Les composants tiers restent soumis ├á leurs propres licences. Les mentions correspondantes figurent dans [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), et le texte de la licence Apache 2.0 applicable ├á l'adaptation de `RuntimeTypeAdapterFactory` est fourni dans [LICENSE-APACHE-2.0](LICENSE-APACHE-2.0).
+Les composants tiers restent soumis à leurs propres licences. Les mentions correspondantes figurent dans [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), et le texte de la licence Apache 2.0 applicable à l'adaptation de `RuntimeTypeAdapterFactory` est fourni dans [LICENSE-APACHE-2.0](LICENSE-APACHE-2.0).

@@ -1,3 +1,10 @@
+/*
+ * Adapted from Gson's RuntimeTypeAdapterFactory.
+ * Original copyright: Copyright (C) 2011 Google Inc.
+ * Modified for Hraza by gfocreation-ops.
+ * Licensed under the Apache License, Version 2.0.
+ * See LICENSE-APACHE-2.0.
+ */
 package com.gfocreation.heartrateandzoneannounce.misc
 
 import com.google.gson.*

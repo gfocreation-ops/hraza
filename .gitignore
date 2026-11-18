@@ -1,0 +1,29 @@
+
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+.kotlin/
+.cxx/
+.externalNativeBuild/
+captures/
+
+# Android Studio : fichiers personnels ou générés
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+.idea/deviceManager.xml
+.idea/studiobot.xml
+
+# Fichiers locaux et systèmes
+.DS_Store
+*.iml
+
+# Signature et secrets
+*.jks
+*.keystore
+keystore.properties
+key.properties
